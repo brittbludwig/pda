@@ -1,0 +1,87 @@
+.ValidatedSelect {
+  &__control {
+    background-color: $white;
+    border-color: $gray-200 !important;
+    box-shadow: none !important;
+    color: $gray-900;
+    width: 100%;
+
+    &--menu-is-open {
+      border-color: $gray-500 !important;
+      border-bottom-left-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+      outline: 0;
+
+      .ValidatedSelect__dropdown-indicator {
+        transform: rotate(180deg);
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__value-container {
+    padding: 0.5rem 0.75rem !important;
+  }
+
+  &__indicator-separator {
+    display: none;
+  }
+
+  &__indicators {
+    background-color: $gray-200;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    color: $black;
+    padding: 0 0.5rem;
+
+    svg {
+      color: $black;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+
+  &__menu {
+    border: 1px solid $black;
+    border-top: 0;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+  }
+
+  &__menu-list {
+    margin-top: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    width: 100%;
+  }
+
+  &__option {
+    padding: 0.75rem 1rem !important;
+
+    &--is-focused,
+    &:active,
+    &:focus {
+      background-color: $white !important;
+    }
+
+    &--is-selected,
+    &:hover {
+      background-color: $gray-100 !important;
+      color: $gray-500 !important;
+    }
+
+    &:nth-of-type(2) {
+      border-top: 1px solid $gray-500;
+      border-bottom: 1px solid $gray-500;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

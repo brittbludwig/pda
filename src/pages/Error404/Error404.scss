@@ -1,0 +1,65 @@
+.Error404 {
+  max-width: $max-container-width;
+  padding-top: 5rem;
+  padding-bottom: 3.125em;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 0;
+    padding-bottom: 4.438rem;
+  }
+
+  &__image {
+    padding: 1.875em 0;
+
+    @include media-breakpoint-up(lg) {
+      padding: 3.75rem 0 2.5rem;
+    }
+  }
+
+  &__header {
+    font-size: 1.2rem;
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+      font-size: 1.5rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem;
+    }
+  }
+
+  &__content {
+    display: block;
+    line-height: 1.5;
+    margin: 1.25rem auto 0;
+    max-width: 440px;
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+      max-width: 537px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      max-width: 555px;
+    }
+  }
+
+  &__cta {
+    background-color: $green;
+    border-radius: 0.444rem;
+    color: $white;
+    font-size: 1.25rem;
+    font-weight: $font-weight-bold;
+    line-height: 1.2;
+    margin: 1.875em 0;
+    padding: 1.125rem 1.5rem;
+
+    &:hover,
+    &:focus {
+      background-color: $green-dark;
+      color: $white;
+      outline: 0;
+    }
+  }
+}

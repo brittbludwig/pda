@@ -1,0 +1,17 @@
+.Content {
+  margin: 10rem 0 3rem;
+
+  @include media-breakpoint-only(md) {
+    margin: 10rem 0.5rem 3rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    border: 1px solid $gray-400;
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin: 2.5rem 0 3rem;
+  }
+}

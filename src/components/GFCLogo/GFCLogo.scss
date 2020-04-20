@@ -1,0 +1,18 @@
+.GFCLogo {
+  margin: 0;
+  max-width: 70px;
+
+  @include media-breakpoint-only(md) {
+    margin: 0 1.5rem;
+    max-width: 70px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin: 0;
+    max-width: 95px;
+  }
+
+  &__image {
+  	width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+.Footer {
+  background-color: $gray-700;
+  color: $white;
+  font-size: 0.8rem;
+  padding: 1.875rem 0;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,88 @@
+.ContentBlock {
+  padding-bottom: 1rem;
+
+  &__primary {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    padding-top: 1rem;
+  }
+
+  &__secondary {
+    padding-bottom: 1rem;
+  }
+
+  &__third-level {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .do-not-sell {
+    background-color: $gray-300;
+    border: 1px solid $gray-500;
+    border-radius: 0.25rem;
+    box-sizing: content-box;
+    color: $gray-500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: $font-weight-bold;
+    padding: 0.5rem 1rem;
+
+    @include media-breakpoint-down(sm) {
+      margin-top: -0.25rem;
+    }
+
+    span {
+      display: inline-block;
+    }
+
+    i {
+      font-size: 2rem;
+      padding: 0.25rem;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: $gray-500;
+      color: $white;
+      text-decoration: none;
+    }
+  }
+
+  ul ul li {
+    padding-bottom: 1rem;
+  }
+
+  table {
+    border: 1px solid $gray-500;
+    border-collapse: collapse;
+    font-size: 0.419rem;
+    margin-bottom: 1rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 1rem;
+    }
+  }
+
+  th,
+  td {
+    border: 1px solid $gray-500;
+    padding: 1rem;
+    vertical-align: top;
+  }
+
+  tr td:first-of-type {
+    font-size: 0.525rem;
+    font-weight: $font-weight-bold;
+
+    @include media-breakpoint-up(md) {
+      font-size: 1rem;
+    }
+  }
+
+  tr td:nth-of-type(3) {
+    text-align: center;
+    vertical-align: middle;
+  }
+}

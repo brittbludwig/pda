@@ -1,0 +1,14 @@
+.Error404Img {
+  &__image {
+    margin: 0;
+    max-width: 290px;
+
+    @include media-breakpoint-up(md) {
+      max-width: 400px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      max-width: 543px;
+    }
+  }
+}

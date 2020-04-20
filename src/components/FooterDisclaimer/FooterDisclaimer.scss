@@ -1,0 +1,15 @@
+.FooterDisclaimer {
+  border-top: 1px solid $gray-350;
+  font-size: 0.8rem;
+  line-height: 1.48;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    color: $white;
+    text-decoration: underline;
+  }
+}

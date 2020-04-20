@@ -1,0 +1,33 @@
+@import url('//fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+// Colors
+$black: #000000;
+$blue: #316ab2;
+$blue-dark: #34609d;
+$gray-900: #979797;
+$gray-700: #4c545c;
+$gray-500: #555555;
+$gray-400: #c4c4c4;
+$gray-350: #cccccc;
+$gray-300: #d8d8d8;
+$gray-200: #e4e3e3;
+$gray-100: #f0f0f0;
+$green: #1f964e;
+$green-dark: #1c733e;
+$orange: #ff8a28;
+$orange-light: #ffb373;
+$red: #ff0100;
+$white: #ffffff;
+
+// Fonts & Text
+$font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+$font-weight-bold: 700;
+$font-weight-normal: 400;
+$font-weight-light: 300;
+
+//Layout
+$max-container-width: 1140px;
+
+// z-index
+$z-index-header: 3;
+$z-index-nav: 2;

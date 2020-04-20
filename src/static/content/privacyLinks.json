@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Privacy Policy & Terms of Use",
+    "anchor": "top",
+    "subnav": true,
+    "key": 0,
+    "sublinks": [
+      {
+        "name": "Introduction",
+        "anchor": "introduction",
+        "key": 1
+      },
+      {
+        "name": "Terms of Use",
+        "anchor": "termsOfUse",
+        "key": 2
+      },
+      {
+        "name": "Security",
+        "anchor": "termsSecurity",
+        "key": 3
+      },
+      {
+        "name": "Information Collection and Use",
+        "anchor": "informationCollected",
+        "key": 4,
+        "subnav": true,
+        "sublinks": [
+          {
+            "name": "Controlling your Personal Information",
+            "anchor": "controllingYourInfo",
+            "key": 5
+          }
+        ]
+      },
+      {
+        "name": "Information for California Residents",
+        "anchor": "informationForCalifornia",
+        "key": 6
+      },
+      {
+        "name": "Your Rights and Choices",
+        "anchor": "yourRightsAndChoices",
+        "key": 7,
+        "subnav": true,
+        "sublinks": [
+          {
+            "name": "Exercising my rights",
+            "anchor": "exerciseMyRights",
+            "key": 8
+          },
+          {
+            "name": "Do Not Sell My Personal Information",
+            "anchor": "doNotSell",
+            "key": 9
+          }
+        ]
+      },
+      {
+        "name": "Additional Information",
+        "anchor": "additionalInformation",
+        "key": 10
+      },
+      {
+        "name": "Contact Us",
+        "anchor": "contactUs",
+        "key": 11
+      }
+    ]
+  },
+  {
+    "name": "Advertiser Disclosure",
+    "anchor": null,
+    "key": 12,
+    "url": "/advertiser-disclosure"
+  },
+  {
+    "name": "Security",
+    "anchor": null,
+    "key": 13,
+    "url": "/security"
+  }
+]

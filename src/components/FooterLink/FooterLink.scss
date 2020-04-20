@@ -1,0 +1,22 @@
+.FooterLink {
+  &__link {
+    display: block;
+    line-height: 1.875rem;
+
+    &-header {
+      font-weight: $font-weight-bold;
+      text-transform: uppercase;
+    }
+
+    &-text,
+    &-text:visited {
+      color: $white;
+    }
+
+    &-text:hover,
+    &-text:focus {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
+}

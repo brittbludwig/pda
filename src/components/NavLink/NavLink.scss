@@ -1,0 +1,40 @@
+.NavLink {
+  font-size: 1rem;
+  line-height: 1.875rem;
+
+  &__primary {
+    border-top: 1px solid $gray-200;
+    font-weight: $font-weight-bold;
+    padding: 0.5rem 0;
+
+    &:first-of-type {
+      @include media-breakpoint-down(md) {
+        border-top: 0;
+      }
+    }
+  }
+
+  &__third {
+    display: flex;
+    font-weight: $font-weight-light;
+    margin-left: 0.5rem;
+
+    &:before {
+      content: '-';
+      margin-right: 0.5rem;
+    }
+  }
+
+  a,
+  a:visited,
+  a:focus,
+  a:hover {
+    color: $gray-500;
+    text-decoration: none;
+  }
+
+  .fa {
+    font-weight: $font-weight-normal;
+    margin-right: 0.5rem;
+  }
+}

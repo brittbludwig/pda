@@ -8,7 +8,7 @@
     "font-awesome": "4.7.0",
     "formik": "2.0.8",
     "interweave": "12.1.1",
-    "node-sass": "4.13.0",
+    "node-sass": "7.0.0",
     "prop-types": "15.7.2",
     "query-string": "6.9.0",
     "react": "16.12.0",
